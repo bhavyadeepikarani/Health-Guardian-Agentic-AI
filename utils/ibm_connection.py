@@ -1,23 +1,27 @@
-from dotenv import load_dotenv
-import os
+import streamlit as st
 
 from ibm_watsonx_ai import Credentials, APIClient
 from ibm_watsonx_ai.foundation_models import ModelInference
 
-load_dotenv()
 
+# Load IBM Watsonx credentials from Streamlit Secrets
 credentials = Credentials(
-    url=os.getenv("IBM_URL"),
-    api_key=os.getenv("IBM_API_KEY")
+    url=st.secrets["IBM_URL"],
+    api_key=st.secrets["IBM_API_KEY"]
 )
 
-project_id = os.getenv("IBM_PROJECT_ID")
+# Get IBM Watsonx project ID
+project_id = st.secrets["IBM_PROJECT_ID"]
 
-# Create API client first
+
+# Create API client
 client = APIClient(credentials)
+
+# Set default project
 client.set.default_project(project_id)
 
-# Create model
+
+# Create Watsonx model
 model = ModelInference(
     model_id="meta-llama/llama-3-3-70b-instruct",
     api_client=client,
@@ -27,5 +31,14 @@ model = ModelInference(
     }
 )
 
+
 def ask_llama(prompt):
-    return model.generate_text(prompt=prompt)
+    """
+    Send prompt to IBM Watsonx Llama model
+    """
+
+    response = model.generate_text(
+        prompt=prompt
+    )
+
+    return response
