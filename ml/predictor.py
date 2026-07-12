@@ -1,9 +1,30 @@
+import os
 import joblib
 import numpy as np
+import pandas as pd
+
+
+# Project root directory
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+# Model paths
+model_path = os.path.join(
+    BASE_DIR,
+    "models",
+    "diabetes_model.pkl"
+)
+
+scaler_path = os.path.join(
+    BASE_DIR,
+    "models",
+    "scaler.pkl"
+)
+
 
 # Load model and scaler once
-model = joblib.load("models/diabetes_model.pkl")
-scaler = joblib.load("models/scaler.pkl")
+model = joblib.load(model_path)
+scaler = joblib.load(scaler_path)
 
 
 def predict_diabetes(data):
@@ -20,12 +41,30 @@ def predict_diabetes(data):
     ]
     """
 
-    sample = np.array(data).reshape(1, -1)
+    features = [
+        "Pregnancies",
+        "Glucose",
+        "BloodPressure",
+        "SkinThickness",
+        "Insulin",
+        "BMI",
+        "DiabetesPedigreeFunction",
+        "Age"
+    ]
 
-    sample = scaler.transform(sample)
+    # Create dataframe to preserve feature names
+    sample = pd.DataFrame(
+        [data],
+        columns=features
+    )
 
-    prediction = model.predict(sample)[0]
+    # Scale input
+    sample_scaled = scaler.transform(sample)
 
-    probability = model.predict_proba(sample)[0][1]
+    # Prediction
+    prediction = model.predict(sample_scaled)[0]
+
+    # Probability
+    probability = model.predict_proba(sample_scaled)[0][1]
 
     return prediction, probability
