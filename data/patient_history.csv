@@ -1,0 +1,25 @@
+Patient,Probability,Risk
+ | Age: 30 | Pregnancies: 0 | Glucose: 100 | Blood Pressure: 80 | Skin Thickness: 20 | Insulin: 80 | BMI: 25.0 | Diabetes Pedigree: 0.5 | ,2.5,Low
+ | Age: 30 | Pregnancies: 0 | Glucose: 100 | Blood Pressure: 80 | Skin Thickness: 20 | Insulin: 80 | BMI: 25.0 | Diabetes Pedigree: 0.5 | ,2.5,Low
+ | Age: 30 | Pregnancies: 0 | Glucose: 100 | Blood Pressure: 80 | Skin Thickness: 20 | Insulin: 80 | BMI: 25.0 | Diabetes Pedigree: 0.5 | ,2.5,Low
+ | Age : 30 | Pregnancies : 0 | Glucose : 100 | Blood Pressure : 80 | Skin Thickness : 20 | Insulin : 80 | BMI : 25.0 | Diabetes Pedigree : 0.5 | ,2.5,Low
+ | Age : 40 | Pregnancies : 2 | Glucose : 100 | Blood Pressure : 80 | Skin Thickness : 20 | Insulin : 80 | BMI : 25.0 | Diabetes Pedigree : 0.5 | ,11.0,Low
+ | Age : 30 | Pregnancies : 0 | Glucose : 100 | Blood Pressure : 80 | Skin Thickness : 20 | Insulin : 80 | BMI : 25.0 | Diabetes Pedigree : 0.5 | ,2.5,Low
+ | Age : 45 | Pregnancies : 2 | Glucose : 165 | Blood Pressure : 82 | Skin Thickness : 28 | Insulin : 120 | BMI : 31.2 | Diabetes Pedigree : 0.68 | ,81.0,High
+ | Age : 30 | Pregnancies : 0 | Glucose : 100 | Blood Pressure : 80 | Skin Thickness : 20 | Insulin : 80 | BMI : 25.0 | Diabetes Pedigree : 0.5 | ,2.5,Low
+ | Age : 30 | Pregnancies : 0 | Glucose : 100 | Blood Pressure : 80 | Skin Thickness : 20 | Insulin : 80 | BMI : 25.0 | Diabetes Pedigree : 0.5 | ,2.5,Low
+ | Age : 30 | Pregnancies : 0 | Glucose : 100 | Blood Pressure : 80 | Skin Thickness : 20 | Insulin : 80 | BMI : 25.0 | Diabetes Pedigree : 0.5 | ,2.5,Low
+ | Age : 30 | Pregnancies : 0 | Glucose : 100 | Blood Pressure : 80 | Skin Thickness : 20 | Insulin : 80 | BMI : 25.0 | Diabetes Pedigree : 0.5 | ,2.5,Low
+ | Age : 45 | Pregnancies : 2 | Glucose : 165 | Blood Pressure : 82 | Skin Thickness : 28 | Insulin : 120 | BMI : 31.2 | Diabetes Pedigree : 0.68 | ,81.0,High
+ | Age : 30 | Pregnancies : 0 | Glucose : 100 | Blood Pressure : 80 | Skin Thickness : 20 | Insulin : 80 | BMI : 25.0 | Diabetes Pedigree : 0.5 | ,2.5,Low
+ | Age : 30 | Pregnancies : 0 | Glucose : 100 | Blood Pressure : 80 | Skin Thickness : 20 | Insulin : 80 | BMI : 25.0 | Diabetes Pedigree : 0.5 | ,2.5,Low
+ | Age : 30 | Pregnancies : 0 | Glucose : 100 | Blood Pressure : 80 | Skin Thickness : 20 | Insulin : 80 | BMI : 25.0 | Diabetes Pedigree : 0.5 | ,2.5,Low
+Age: 30 | Pregnancies: 0 | Glucose: 100 | Blood Pressure: 80 | Skin Thickness: 20 | Insulin: 80 | BMI: 25.0 | Diabetes Pedigree: 0.5,2.5,Low
+Age: 30 | Pregnancies: 0 | Glucose: 100 | Blood Pressure: 80 | Skin Thickness: 20 | Insulin: 80 | BMI: 25.0 | Diabetes Pedigree: 0.5,2.5,Low
+Age: 30 | Pregnancies: 0 | Glucose: 100 | Blood Pressure: 80 | Skin Thickness: 20 | Insulin: 80 | BMI: 25.0 | Diabetes Pedigree: 0.5,2.5,Low
+Age: 30 | Pregnancies: 0 | Glucose: 100 | Blood Pressure: 80 | Skin Thickness: 20 | Insulin: 80 | BMI: 25.0 | Diabetes Pedigree: 0.5,2.5,Low
+Age: 30 | Pregnancies: 0 | Glucose: 100 | Blood Pressure: 80 | Skin Thickness: 20 | Insulin: 80 | BMI: 25.0 | Diabetes Pedigree: 0.5,2.5,Low
+Age: 30 | Pregnancies: 0 | Glucose: 100 | Blood Pressure: 80 | Skin Thickness: 20 | Insulin: 80 | BMI: 25.0 | Diabetes Pedigree: 0.5,2.5,Low
+Age: 30 | Pregnancies: 0 | Glucose: 100 | Blood Pressure: 80 | Skin Thickness: 20 | Insulin: 80 | BMI: 25.0 | Diabetes Pedigree: 0.5,2.5,Low
+Age: 30 | Pregnancies: 0 | Glucose: 100 | Blood Pressure: 80 | Skin Thickness: 20 | Insulin: 80 | BMI: 25.0 | Diabetes Pedigree: 0.5,2.5,Low
+Age: 21 | Pregnancies: 0 | Glucose: 120 | Blood Pressure: 80 | Skin Thickness: 20 | Insulin: 70 | BMI: 25.0 | Diabetes Pedigree: 0.5,1.5,Low
